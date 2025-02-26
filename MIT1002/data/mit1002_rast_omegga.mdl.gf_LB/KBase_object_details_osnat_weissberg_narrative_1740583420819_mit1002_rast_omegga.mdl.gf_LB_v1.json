@@ -1,0 +1,120 @@
+{
+    "metadata": [
+        [
+            378,
+            "mit1002_rast_omegga.mdl.gf_LB",
+            "KBaseFBA.FBAModel-15.0",
+            "2025-02-26T18:44:24+0000",
+            1,
+            "osnat_weissberg",
+            208317,
+            "osnat_weissberg:narrative_1740583420819",
+            "fea83db95277e4f73a4b04ebc3d197c1",
+            1109937,
+            {
+                "Genome": "191918/12/1",
+                "Name": "unknown_taxon",
+                "Number biomasses": "1",
+                "Number compartments": "2",
+                "Number compounds": "936",
+                "Number gapfills": "1",
+                "Number gapgens": "0",
+                "Number reactions": "881",
+                "Source": "",
+                "Source ID": "",
+                "Type": ""
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2025-02-26T18:44:23+0000",
+            "creator": "osnat_weissberg",
+            "epoch": 1740595463538,
+            "extracted_ids": {},
+            "info": [
+                378,
+                "mit1002_rast_omegga.mdl.gf_LB",
+                "KBaseFBA.FBAModel-15.0",
+                "2025-02-26T18:44:24+0000",
+                1,
+                "osnat_weissberg",
+                208317,
+                "osnat_weissberg:narrative_1740583420819",
+                "fea83db95277e4f73a4b04ebc3d197c1",
+                1109937,
+                {
+                    "Genome": "191918/12/1",
+                    "Name": "unknown_taxon",
+                    "Number biomasses": "1",
+                    "Number compartments": "2",
+                    "Number compounds": "936",
+                    "Number gapfills": "1",
+                    "Number gapgens": "0",
+                    "Number reactions": "881",
+                    "Source": "",
+                    "Source ID": "",
+                    "Type": ""
+                }
+            ],
+            "orig_wsid": 208317,
+            "path": [
+                "208317/378/1"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "description": "gapfill_metabolic_models",
+                    "external_data": [],
+                    "input_ws_objects": [
+                        "208317/233/1",
+                        "191918/12/1",
+                        "208317/377/1",
+                        "12998/20/6",
+                        "12998/21/19"
+                    ],
+                    "intermediate_incoming": [],
+                    "intermediate_outgoing": [],
+                    "method": "gapfill_metabolic_models",
+                    "method_params": [
+                        {
+                            "atp_safe": 1,
+                            "change_to_complete": 0,
+                            "default_objective": "bio1",
+                            "expression_conditions": [],
+                            "expression_refs": [],
+                            "forced_atp_list": [],
+                            "gapfilling_mode": "Sequential",
+                            "media_list": [
+                                "208317/377/1"
+                            ],
+                            "minimum_objective": 0.01,
+                            "model_list": [
+                                "208317/233/1"
+                            ],
+                            "reaction_exlusion_list": [],
+                            "source_models": [],
+                            "suffix": ".gf_LB",
+                            "workspace": "osnat_weissberg:narrative_1740583420819"
+                        }
+                    ],
+                    "resolved_ws_objects": [
+                        "208317/233/1",
+                        "191918/12/1",
+                        "208317/377/1",
+                        "12998/20/6",
+                        "12998/21/19"
+                    ],
+                    "service": "ModelSEEDReconstruction",
+                    "service_ver": "0.1.1.msr",
+                    "subactions": []
+                }
+            ],
+            "refs": [
+                "191918/12/1",
+                "208317/377/1"
+            ]
+        }
+    ]
+}

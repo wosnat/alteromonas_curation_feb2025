@@ -1,0 +1,120 @@
+{
+    "metadata": [
+        [
+            368,
+            "mit1002_rast_omegga.mdl.gf",
+            "KBaseFBA.FBAModel-15.0",
+            "2025-02-26T16:39:27+0000",
+            2,
+            "hgsco",
+            191918,
+            "hgsco:narrative_1726668344695",
+            "5603e4f5b19124b5380e88ed346cdd6f",
+            1160288,
+            {
+                "Genome": "191918/12/1",
+                "Name": "unknown_taxon",
+                "Number biomasses": "1",
+                "Number compartments": "2",
+                "Number compounds": "946",
+                "Number gapfills": "1",
+                "Number gapgens": "0",
+                "Number reactions": "924",
+                "Source": "",
+                "Source ID": "",
+                "Type": ""
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2025-02-26T16:39:27+0000",
+            "creator": "hgsco",
+            "epoch": 1740587967019,
+            "extracted_ids": {},
+            "info": [
+                368,
+                "mit1002_rast_omegga.mdl.gf",
+                "KBaseFBA.FBAModel-15.0",
+                "2025-02-26T16:39:27+0000",
+                2,
+                "hgsco",
+                191918,
+                "hgsco:narrative_1726668344695",
+                "5603e4f5b19124b5380e88ed346cdd6f",
+                1160288,
+                {
+                    "Genome": "191918/12/1",
+                    "Name": "unknown_taxon",
+                    "Number biomasses": "1",
+                    "Number compartments": "2",
+                    "Number compounds": "946",
+                    "Number gapfills": "1",
+                    "Number gapgens": "0",
+                    "Number reactions": "924",
+                    "Source": "",
+                    "Source ID": "",
+                    "Type": ""
+                }
+            ],
+            "orig_wsid": 191918,
+            "path": [
+                "191918/368/2"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "description": "gapfill_metabolic_models",
+                    "external_data": [],
+                    "input_ws_objects": [
+                        "191918/233/1",
+                        "191918/12/1",
+                        "191918/366/2",
+                        "12998/20/6",
+                        "12998/21/19"
+                    ],
+                    "intermediate_incoming": [],
+                    "intermediate_outgoing": [],
+                    "method": "gapfill_metabolic_models",
+                    "method_params": [
+                        {
+                            "atp_safe": 1,
+                            "change_to_complete": 0,
+                            "default_objective": "bio1",
+                            "expression_conditions": [],
+                            "expression_refs": [],
+                            "forced_atp_list": [],
+                            "gapfilling_mode": "Sequential",
+                            "media_list": [
+                                "191918/366/2"
+                            ],
+                            "minimum_objective": 0.01,
+                            "model_list": [
+                                "191918/233/1"
+                            ],
+                            "reaction_exlusion_list": [],
+                            "source_models": [],
+                            "suffix": ".gf",
+                            "workspace": "hgsco:narrative_1726668344695"
+                        }
+                    ],
+                    "resolved_ws_objects": [
+                        "191918/233/1",
+                        "191918/12/1",
+                        "191918/366/2",
+                        "12998/20/6",
+                        "12998/21/19"
+                    ],
+                    "service": "ModelSEEDReconstruction",
+                    "service_ver": "0.1.1.msr",
+                    "subactions": []
+                }
+            ],
+            "refs": [
+                "191918/12/1",
+                "191918/366/2"
+            ]
+        }
+    ]
+}

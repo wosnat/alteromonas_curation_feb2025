@@ -1,0 +1,82 @@
+{
+    "metadata": [
+        [
+            374,
+            "phenotype_result_glc_minimal",
+            "KBasePhenotypes.PhenotypeSimulationSet-3.0",
+            "2025-02-26T17:09:28+0000",
+            1,
+            "osnat_weissberg",
+            191918,
+            "hgsco:narrative_1726668344695",
+            "bdc9daf05f72ac252e7b249e9080bbeb",
+            8644,
+            {
+                "Number phenotypes": "32"
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2025-02-26T17:09:28+0000",
+            "creator": "osnat_weissberg",
+            "epoch": 1740589768159,
+            "extracted_ids": {},
+            "info": [
+                374,
+                "phenotype_result_glc_minimal",
+                "KBasePhenotypes.PhenotypeSimulationSet-3.0",
+                "2025-02-26T17:09:28+0000",
+                1,
+                "osnat_weissberg",
+                191918,
+                "hgsco:narrative_1726668344695",
+                "bdc9daf05f72ac252e7b249e9080bbeb",
+                8644,
+                {
+                    "Number phenotypes": "32"
+                }
+            ],
+            "orig_wsid": 191918,
+            "path": [
+                "191918/374/1"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "external_data": [],
+                    "input_ws_objects": [],
+                    "intermediate_incoming": [],
+                    "intermediate_outgoing": [],
+                    "method": "simulate_growth_on_phenotype_data",
+                    "method_params": [
+                        {
+                            "add_all_transporters": 1,
+                            "add_positive_transporters": 0,
+                            "custom_bound_list": [],
+                            "fbamodel_id": "191918/368/2",
+                            "feature_ko_list": "",
+                            "fit_phenotype_data": 0,
+                            "gapfill_phenotypes": 0,
+                            "media_supplement_list": "",
+                            "phenotypeset_id": "191918/360/2",
+                            "phenotypesim_output_id": "phenotype_result_glc_minimal",
+                            "reaction_ko_list": "",
+                            "save_fluxes": 0,
+                            "target_reaction": "bio1",
+                            "workspace": "hgsco:narrative_1726668344695"
+                        }
+                    ],
+                    "resolved_ws_objects": [],
+                    "service": "fba_tools",
+                    "subactions": []
+                }
+            ],
+            "refs": [
+                "191918/360/2",
+                "191918/368/2"
+            ]
+        }
+    ]
+}
