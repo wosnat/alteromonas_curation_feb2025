@@ -1,0 +1,178 @@
+{
+    "metadata": [
+        [
+            341,
+            "mit1002_rast_omegga.mdl.all_sequential_gf_bio1",
+            "KBaseFBA.FBAModel-15.0",
+            "2025-02-26T00:24:58+0000",
+            2,
+            "hgsco",
+            191918,
+            "hgsco:narrative_1726668344695",
+            "a443f1da8c316f1494c29bbb3534c32f",
+            1368266,
+            {
+                "Genome": "191918/12/1",
+                "Name": "unknown_taxon",
+                "Number biomasses": "1",
+                "Number compartments": "2",
+                "Number compounds": "984",
+                "Number gapfills": "14",
+                "Number gapgens": "0",
+                "Number reactions": "954",
+                "Source": "",
+                "Source ID": "",
+                "Type": ""
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2025-02-26T00:24:57+0000",
+            "creator": "hgsco",
+            "epoch": 1740529497772,
+            "extracted_ids": {},
+            "info": [
+                341,
+                "mit1002_rast_omegga.mdl.all_sequential_gf_bio1",
+                "KBaseFBA.FBAModel-15.0",
+                "2025-02-26T00:24:58+0000",
+                2,
+                "hgsco",
+                191918,
+                "hgsco:narrative_1726668344695",
+                "a443f1da8c316f1494c29bbb3534c32f",
+                1368266,
+                {
+                    "Genome": "191918/12/1",
+                    "Name": "unknown_taxon",
+                    "Number biomasses": "1",
+                    "Number compartments": "2",
+                    "Number compounds": "984",
+                    "Number gapfills": "14",
+                    "Number gapgens": "0",
+                    "Number reactions": "954",
+                    "Source": "",
+                    "Source ID": "",
+                    "Type": ""
+                }
+            ],
+            "orig_wsid": 191918,
+            "path": [
+                "191918/341/2"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "description": "gapfill_metabolic_models",
+                    "external_data": [],
+                    "input_ws_objects": [
+                        "191918/233/1",
+                        "191918/12/1",
+                        "207974/25/1",
+                        "207974/24/1",
+                        "207974/20/1",
+                        "207974/22/1",
+                        "207974/23/1",
+                        "207974/21/1",
+                        "207974/27/1",
+                        "207974/26/1",
+                        "207974/28/1",
+                        "207974/38/1",
+                        "207974/42/1",
+                        "207974/40/1",
+                        "207974/50/1",
+                        "207974/51/1",
+                        "207974/48/1",
+                        "207974/55/1",
+                        "12998/20/6",
+                        "12998/21/19"
+                    ],
+                    "intermediate_incoming": [],
+                    "intermediate_outgoing": [],
+                    "method": "gapfill_metabolic_models",
+                    "method_params": [
+                        {
+                            "atp_safe": 1,
+                            "change_to_complete": 0,
+                            "default_objective": "bio1",
+                            "expression_conditions": [],
+                            "expression_refs": [],
+                            "forced_atp_list": [],
+                            "gapfilling_mode": "Sequential",
+                            "media_list": [
+                                "207974/25/1",
+                                "207974/24/1",
+                                "207974/20/1",
+                                "207974/22/1",
+                                "207974/23/1",
+                                "207974/21/1",
+                                "207974/27/1",
+                                "207974/26/1",
+                                "207974/28/1",
+                                "207974/38/1",
+                                "207974/42/1",
+                                "207974/40/1",
+                                "207974/50/1",
+                                "207974/51/1",
+                                "207974/48/1",
+                                "207974/55/1"
+                            ],
+                            "minimum_objective": 0.01,
+                            "model_list": [
+                                "191918/233/1"
+                            ],
+                            "reaction_exlusion_list": [],
+                            "source_models": [],
+                            "suffix": ".all_sequential_gf_bio1",
+                            "workspace": "hgsco:narrative_1726668344695"
+                        }
+                    ],
+                    "resolved_ws_objects": [
+                        "191918/233/1",
+                        "191918/12/1",
+                        "207974/25/1",
+                        "207974/24/1",
+                        "207974/20/1",
+                        "207974/22/1",
+                        "207974/23/1",
+                        "207974/21/1",
+                        "207974/27/1",
+                        "207974/26/1",
+                        "207974/28/1",
+                        "207974/38/1",
+                        "207974/42/1",
+                        "207974/40/1",
+                        "207974/50/1",
+                        "207974/51/1",
+                        "207974/48/1",
+                        "207974/55/1",
+                        "12998/20/6",
+                        "12998/21/19"
+                    ],
+                    "service": "ModelSEEDReconstruction",
+                    "service_ver": "0.1.1.msr",
+                    "subactions": []
+                }
+            ],
+            "refs": [
+                "207974/50/1",
+                "207974/48/1",
+                "207974/25/1",
+                "207974/38/1",
+                "191918/12/1",
+                "207974/23/1",
+                "207974/22/1",
+                "207974/20/1",
+                "207974/40/1",
+                "207974/51/1",
+                "207974/42/1",
+                "207974/55/1",
+                "207974/28/1",
+                "207974/27/1",
+                "207974/26/1"
+            ]
+        }
+    ]
+}
