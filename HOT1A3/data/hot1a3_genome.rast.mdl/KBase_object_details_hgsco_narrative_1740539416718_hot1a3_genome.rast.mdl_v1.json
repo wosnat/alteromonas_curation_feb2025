@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        [
+            31,
+            "hot1a3_genome.rast.mdl",
+            "KBaseFBA.FBAModel-15.0",
+            "2025-02-26T03:22:37+0000",
+            1,
+            "hgsco",
+            208263,
+            "hgsco:narrative_1740539416718",
+            "ce554f91bfddc994b37c60adc973539c",
+            1617836,
+            {
+                "Genome": "208263/29/1",
+                "Name": "Alteromonas macleodii",
+                "Number biomasses": "1",
+                "Number compartments": "2",
+                "Number compounds": "1208",
+                "Number gapfills": "0",
+                "Number gapgens": "0",
+                "Number reactions": "1241",
+                "Source": "",
+                "Source ID": "",
+                "Type": ""
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2025-02-26T03:22:36+0000",
+            "creator": "hgsco",
+            "epoch": 1740540156399,
+            "extracted_ids": {},
+            "info": [
+                31,
+                "hot1a3_genome.rast.mdl",
+                "KBaseFBA.FBAModel-15.0",
+                "2025-02-26T03:22:37+0000",
+                1,
+                "hgsco",
+                208263,
+                "hgsco:narrative_1740539416718",
+                "ce554f91bfddc994b37c60adc973539c",
+                1617836,
+                {
+                    "Genome": "208263/29/1",
+                    "Name": "Alteromonas macleodii",
+                    "Number biomasses": "1",
+                    "Number compartments": "2",
+                    "Number compounds": "1208",
+                    "Number gapfills": "0",
+                    "Number gapgens": "0",
+                    "Number reactions": "1241",
+                    "Source": "",
+                    "Source ID": "",
+                    "Type": ""
+                }
+            ],
+            "orig_wsid": 208263,
+            "path": [
+                "208263/31/1"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "description": "build_metabolic_models",
+                    "external_data": [],
+                    "input_ws_objects": [
+                        "262/536/1",
+                        "12998/20/6",
+                        "208263/29/1",
+                        "12998/21/19"
+                    ],
+                    "intermediate_incoming": [],
+                    "intermediate_outgoing": [],
+                    "method": "build_metabolic_models",
+                    "method_params": [
+                        {
+                            "atp_safe": 1,
+                            "change_to_complete": 0,
+                            "core_template_ref": null,
+                            "expression_conditions": [],
+                            "expression_refs": [],
+                            "forced_atp_list": [],
+                            "gapfilling_media_list": [],
+                            "gapfilling_mode": "Sequential",
+                            "genome_refs": [
+                                "208263/29/1"
+                            ],
+                            "gs_template": "gramneg",
+                            "gs_template_ref": null,
+                            "run_gapfilling": 0,
+                            "suffix": ".mdl",
+                            "workspace": "hgsco:narrative_1740539416718"
+                        }
+                    ],
+                    "resolved_ws_objects": [
+                        "262/536/1",
+                        "12998/20/6",
+                        "208263/29/1",
+                        "12998/21/19"
+                    ],
+                    "service": "ModelSEEDReconstruction",
+                    "service_ver": "0.1.1.msr",
+                    "subactions": []
+                }
+            ],
+            "refs": [
+                "208263/29/1"
+            ]
+        }
+    ]
+}
