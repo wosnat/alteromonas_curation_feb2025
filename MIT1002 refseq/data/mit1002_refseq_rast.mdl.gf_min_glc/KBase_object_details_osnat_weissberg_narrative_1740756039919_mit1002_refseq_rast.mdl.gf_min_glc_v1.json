@@ -1,0 +1,120 @@
+{
+    "metadata": [
+        [
+            14,
+            "mit1002_refseq_rast.mdl.gf_min_glc",
+            "KBaseFBA.FBAModel-15.0",
+            "2025-02-28T15:59:02+0000",
+            1,
+            "osnat_weissberg",
+            208605,
+            "osnat_weissberg:narrative_1740756039919",
+            "94872b57d8cc1f71d3056a75bcf38847",
+            1730370,
+            {
+                "Genome": "208605/5/1",
+                "Name": "Alteromonas macleodii",
+                "Number biomasses": "1",
+                "Number compartments": "2",
+                "Number compounds": "1225",
+                "Number gapfills": "1",
+                "Number gapgens": "0",
+                "Number reactions": "1279",
+                "Source": "",
+                "Source ID": "",
+                "Type": ""
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2025-02-28T15:59:01+0000",
+            "creator": "osnat_weissberg",
+            "epoch": 1740758341525,
+            "extracted_ids": {},
+            "info": [
+                14,
+                "mit1002_refseq_rast.mdl.gf_min_glc",
+                "KBaseFBA.FBAModel-15.0",
+                "2025-02-28T15:59:02+0000",
+                1,
+                "osnat_weissberg",
+                208605,
+                "osnat_weissberg:narrative_1740756039919",
+                "94872b57d8cc1f71d3056a75bcf38847",
+                1730370,
+                {
+                    "Genome": "208605/5/1",
+                    "Name": "Alteromonas macleodii",
+                    "Number biomasses": "1",
+                    "Number compartments": "2",
+                    "Number compounds": "1225",
+                    "Number gapfills": "1",
+                    "Number gapgens": "0",
+                    "Number reactions": "1279",
+                    "Source": "",
+                    "Source ID": "",
+                    "Type": ""
+                }
+            ],
+            "orig_wsid": 208605,
+            "path": [
+                "208605/14/1"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "description": "gapfill_metabolic_models",
+                    "external_data": [],
+                    "input_ws_objects": [
+                        "208605/7/1",
+                        "208605/5/1",
+                        "208605/4/2",
+                        "12998/20/6",
+                        "12998/21/19"
+                    ],
+                    "intermediate_incoming": [],
+                    "intermediate_outgoing": [],
+                    "method": "gapfill_metabolic_models",
+                    "method_params": [
+                        {
+                            "atp_safe": 1,
+                            "change_to_complete": 0,
+                            "default_objective": "bio1",
+                            "expression_conditions": [],
+                            "expression_refs": [],
+                            "forced_atp_list": [],
+                            "gapfilling_mode": "Sequential",
+                            "media_list": [
+                                "208605/4/2"
+                            ],
+                            "minimum_objective": 0.01,
+                            "model_list": [
+                                "208605/7/1"
+                            ],
+                            "reaction_exlusion_list": [],
+                            "source_models": [],
+                            "suffix": ".gf_min_glc",
+                            "workspace": "osnat_weissberg:narrative_1740756039919"
+                        }
+                    ],
+                    "resolved_ws_objects": [
+                        "208605/7/1",
+                        "208605/5/1",
+                        "208605/4/2",
+                        "12998/20/6",
+                        "12998/21/19"
+                    ],
+                    "service": "ModelSEEDReconstruction",
+                    "service_ver": "0.1.1.msr",
+                    "subactions": []
+                }
+            ],
+            "refs": [
+                "208605/5/1",
+                "208605/4/2"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        [
+            7,
+            "mit1002_refseq_rast.mdl",
+            "KBaseFBA.FBAModel-15.0",
+            "2025-02-28T15:36:31+0000",
+            1,
+            "osnat_weissberg",
+            208605,
+            "osnat_weissberg:narrative_1740756039919",
+            "73677312f36eda3574f7746a763558a2",
+            1619105,
+            {
+                "Genome": "208605/5/1",
+                "Name": "Alteromonas macleodii",
+                "Number biomasses": "1",
+                "Number compartments": "2",
+                "Number compounds": "1212",
+                "Number gapfills": "0",
+                "Number gapgens": "0",
+                "Number reactions": "1247",
+                "Source": "",
+                "Source ID": "",
+                "Type": ""
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2025-02-28T15:36:29+0000",
+            "creator": "osnat_weissberg",
+            "epoch": 1740756989912,
+            "extracted_ids": {},
+            "info": [
+                7,
+                "mit1002_refseq_rast.mdl",
+                "KBaseFBA.FBAModel-15.0",
+                "2025-02-28T15:36:31+0000",
+                1,
+                "osnat_weissberg",
+                208605,
+                "osnat_weissberg:narrative_1740756039919",
+                "73677312f36eda3574f7746a763558a2",
+                1619105,
+                {
+                    "Genome": "208605/5/1",
+                    "Name": "Alteromonas macleodii",
+                    "Number biomasses": "1",
+                    "Number compartments": "2",
+                    "Number compounds": "1212",
+                    "Number gapfills": "0",
+                    "Number gapgens": "0",
+                    "Number reactions": "1247",
+                    "Source": "",
+                    "Source ID": "",
+                    "Type": ""
+                }
+            ],
+            "orig_wsid": 208605,
+            "path": [
+                "208605/7/1"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "description": "build_metabolic_models",
+                    "external_data": [],
+                    "input_ws_objects": [
+                        "262/536/1",
+                        "12998/20/6",
+                        "208605/5/1",
+                        "12998/21/19"
+                    ],
+                    "intermediate_incoming": [],
+                    "intermediate_outgoing": [],
+                    "method": "build_metabolic_models",
+                    "method_params": [
+                        {
+                            "atp_safe": 1,
+                            "change_to_complete": 0,
+                            "core_template_ref": null,
+                            "expression_conditions": [],
+                            "expression_refs": [],
+                            "forced_atp_list": [],
+                            "gapfilling_media_list": [],
+                            "gapfilling_mode": "Sequential",
+                            "genome_refs": [
+                                "208605/5/1"
+                            ],
+                            "gs_template": "auto",
+                            "gs_template_ref": null,
+                            "run_gapfilling": 0,
+                            "suffix": ".mdl",
+                            "workspace": "osnat_weissberg:narrative_1740756039919"
+                        }
+                    ],
+                    "resolved_ws_objects": [
+                        "262/536/1",
+                        "12998/20/6",
+                        "208605/5/1",
+                        "12998/21/19"
+                    ],
+                    "service": "ModelSEEDReconstruction",
+                    "service_ver": "0.1.1.msr",
+                    "subactions": []
+                }
+            ],
+            "refs": [
+                "208605/5/1"
+            ]
+        }
+    ]
+}
